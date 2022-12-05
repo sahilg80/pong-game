@@ -9,7 +9,7 @@ public class CameraAdjustment : MonoBehaviour
     SpriteRenderer boundary;
 
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         float screenRatio = (float)Screen.width/(float)Screen.height;
         float targetRatio = boundary.bounds.size.x / boundary.bounds.size.y;

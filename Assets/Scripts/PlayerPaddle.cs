@@ -33,7 +33,7 @@ public class PlayerPaddle : Paddle
             {
                 dir = Vector2.zero;
             }
-        }
+       }
     }
     void FixedUpdate()
     {
